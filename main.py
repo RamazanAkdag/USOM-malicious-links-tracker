@@ -17,7 +17,7 @@ def main():
     headers = data[0].keys()
     file = JsonCsvConverter.convertToCsvFile(data, headers)
 
-    data_dir = ".//data"
+    data_dir = "/app/data"
     files = sorted(os.listdir(data_dir), reverse=True)
     print(files)
   
