@@ -44,8 +44,9 @@ This project automates fetching data from the USOM (National Cyber Security Inci
     ```
 
 ## Screenshots
-
+**Output**
 ![Output Screenshot](screenshots/output.png)
+**.env**
 ![.env Screenshot](screenshots/env.png)
 
 ## License
