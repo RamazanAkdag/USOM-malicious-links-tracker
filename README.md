@@ -40,13 +40,11 @@ This project automates fetching data from the USOM (National Cyber Security Inci
 
 4. **Run the Docker container from docker hub**:
     ```sh
-    docker run -d --name usom-mailer --env-file .env ramazanakdag/usom-mailer
+    docker run -d -v path\of_the\env\.env:/env/.env ramazanakdag/usom-mailer
     ```
 
 ## Screenshots
-**Output**
 ![Output Screenshot](screenshots/output.png)
-**.env**
 ![.env Screenshot](screenshots/env.png)
 
 ## License
