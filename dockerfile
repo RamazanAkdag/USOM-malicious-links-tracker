@@ -13,8 +13,6 @@ RUN pip3 install --upgrade pip && \
 
 COPY . .
 
-RUN mkdir -p /app/data
-
 COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN chmod +x /usr/local/bin/entrypoint.sh
 
