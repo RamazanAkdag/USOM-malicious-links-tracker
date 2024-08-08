@@ -32,7 +32,6 @@ This project automates fetching data from the USOM (National Cyber Security Inci
     MAIL_FILE=diff_today.csv
     CRON_EXPRESSION="0 12 * * *"
     ```
-    ![.env Screenshot](screenshots/env.png)
 
 3. **Build the Docker image**:
     ```sh
